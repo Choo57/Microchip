@@ -31,7 +31,7 @@ Data transmitted via a Microchip MRF89AM8A Transceiver are received and displaye
 Tick "Use VPP first program entry" on PICkit 2 under "Tools" menu before programming
 
 <h6>Receiver Schematic</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Wireless%20Water%20Tank%20Monitor/receiver_schematic.png" width=80% height=80%>
+<img src="https://github.com/Choo57/Microchip/blob/main/Wireless%20Water%20Tank%20Monitor/receiver_schematic.png">
 
 <h3>TRANSMITTER UNIT</h3>
 Water level is measured using a self-made 10-level reed switch float level probe. Reed switches are sealed inside a plastic pipe, so no contact with water. A magnet, also sealed inside a float around the vertically placed reed switch pipe turns on reed switches, which are read to find the water level. Hot water temperature is measured using an MCP9700A temperature sensor. Measured values are transmitted via a Microchip MRF89XAM8A Transciever. Device is battery powered. Timer1 and 32.768kHz crystal is used during sleep for improved/consistent sleep periods so the RX unit can synchronize reception more successfully.
@@ -52,4 +52,4 @@ RB3 should be grounded during low voltage ICSP
 
 
 <h6>Transmitter Schematic</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Wireless%20Water%20Tank%20Monitor/transmitter_schematic.png" width=80% height=80%>
+<img src="https://github.com/Choo57/Microchip/blob/main/Wireless%20Water%20Tank%20Monitor/transmitter_schematic.png">
