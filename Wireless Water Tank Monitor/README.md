@@ -18,14 +18,14 @@ Power consumption of both units is optimized to have +1 year battery life. Both 
 Data transmitted via a Microchip MRF89AM8A Transceiver are received and displayed on a segmented LCD with a very low power profile. Device is battery powered. Hot water temperature in the water tank is displayed when the button is pushed, otherwise the water level is displayed as the default value. Buzzer sounds an alarm when water overflows (indicating a problem with the overflow mechanism that should have cut water supply) or if water level is <30%. Buzzer will continue alarming until water level goes above 30% or till the user presses the "show water temperature" button to acknowledge the alarm. Battery voltage is also checked together with the battery voltage indicator byte received from the transmitter; so when the "low bat" LED is lit on the LCD display, either the RX unit's or TX unit's battery can be low (same indicator used to alert for both units).
 
 <h3>RECEIVER CONFIG</h3>
-**MCU**: PIC16F917<br/>
-**Oscillator**: 32.768 kHz crystal in LP mode<br/>
-**TMR1**: Running on internal 8MHz crystal<br/>
-**SW**: mikroC PRO for PIC<br/>
-**Batteries**: x2 AA batteries connected in series<br/>
-**3.5 Digit LCD**: Static LCD with only COM0 used<br/>
-**Temperature Display Switch Port**: RB0<br/>
-**MRF89AM8A**: 868MHz transceiver, conforms European ETSI standard<br/>
+<b>MCU</b>: PIC16F917<br/>
+<b>Oscillator</b>: 32.768 kHz crystal in LP mode<br/>
+<b>TMR1</b>: Running on internal 8MHz crystal<br/>
+<b>SW</b>: mikroC PRO for PIC<br/>
+<b>Batteries</b>: x2 AA batteries connected in series<br/>
+<b>3.5 Digit LCD</b>: Static LCD with only COM0 used<br/>
+<b>Temperature Display Switch Port</b>: RB0<br/>
+<b>MRF89AM8A</b>: 868MHz transceiver, conforms European ETSI standard<br/>
 
 <h6>NOTES</h6>
 Tick "Use VPP first program entry" on PICkit 2 under "Tools" menu before programming
@@ -37,14 +37,14 @@ Tick "Use VPP first program entry" on PICkit 2 under "Tools" menu before program
 Water level is measured using a self-made 10-level reed switch float level probe. Reed switches are sealed inside a plastic pipe, so no contact with water. A magnet, also sealed inside a float around the vertically placed reed switch pipe turns on reed switches, which are read to find the water level. Hot water temperature is measured using an MCP9700A temperature sensor. Measured values are transmitted via a Microchip MRF89XAM8A Transciever. Device is battery powered. Timer1 and 32.768kHz crystal is used during sleep for improved/consistent sleep periods so the RX unit can synchronize reception more successfully.
 
 <h3>TRANSMITTER CONFIG</h3>
-**MCU**: PIC16F883<br/>
-**Oscillator**: 8.000 MHz (using internal oscillator)<br/>
-**SW**: mikroC PRO for PIC<br/>
-**Battery**: x1 D battery<br/>
-**Level probe Ports**: AN11 & AN13<br/>
-**MCP9700A**: Vs (RB1), Vout (RB0, AN12)<br/>
-**MRF89XAM8A**: CSCON (RC6), CSDATA (RC2), SPI (RC3 RC4 RC5)<br/>
-**Low-voltage ICSP**: RB6 and RB7 reserved for PGD and PGC<br/>
+<b>MCU</b>: PIC16F883<br/>
+<b>Oscillator</b>: 8.000 MHz (using internal oscillator)<br/>
+<b>SW</b>: mikroC PRO for PIC<br/>
+<b>Battery</b>: x1 D battery<br/>
+<b>Level probe Ports</b>: AN11 & AN13<br/>
+<b>MCP9700A</b>: Vs (RB1), Vout (RB0, AN12)<br/>
+<b>MRF89XAM8A</b>: CSCON (RC6), CSDATA (RC2), SPI (RC3 RC4 RC5)<br/>
+<b>Low-voltage ICSP</b>: RB6 and RB7 reserved for PGD and PGC<br/>
 
 <h6>NOTES</h6>
 Send 203 at the 1st, 2nd, 9th and 10th packets to indicate continuous transmit mode during the initial power on
