@@ -1,0 +1,7 @@
+- For programming, used Pic Kit 2 (2.61.00)
+
+- Replace the Device File that comes with Pic Kit 2 with v1.63.146 so it includes PIC12F1501
+
+- When Pic Kit 2 is open, go to Programmer -> Manual Device Select and then Device Family -> Midrange -> 1.8V min to find PIC12F1501 in the list
+
+- When programming the PIC12F1501 for 31kHz internal oscillator, I was getting "Time too small, no code generated" error. Copied the __Lib_Delays.c under C:\Program Files\Mikroelektronika\mikroC PRO for PIC\Uses\P16_Enh\, pasted it under E:\- PROJECTS\MikroC PRO for PIC\Automatic Flower Pot Watering, made the new __Lib_Delays.c available under MikroC -> Prorect -> Edit Search Paths and removed the very small delays inside it as they cannot be generated with 31kHz internal oscillator.
