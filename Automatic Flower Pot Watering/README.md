@@ -29,10 +29,10 @@ Oscillator:               31 KHz internal uncalibrated<br/>
 SW:                       mikroC PRO for PIC<br/>
 
 <h6>Schematic</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Choo57/Automatic%20Flower%20Pot%20Watering/Schematic.PNG" width=65% height=65%>
+<img src="https://github.com/Choo57/Microchip/blob/main/Automatic%20Flower%20Pot%20Watering/Schematic.PNG" width=65% height=65%>
 
 <h6>Board</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Choo57/Automatic%20Flower%20Pot%20Watering/photo%20-%20board.png" width=35% height=35%>
+<img src="https://github.com/Choo57/Microchip/blob/main/Automatic%20Flower%20Pot%20Watering/photo%20-%20board.png" width=35% height=35%>
 
 <h6>Photo</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Choo57/Automatic%20Flower%20Pot%20Watering/photo%20-%20complete.png" width=40% height=40%>
+<img src="https://github.com/Choo57/Microchip/blob/main/Automatic%20Flower%20Pot%20Watering/photo%20-%20complete.png" width=40% height=40%>
