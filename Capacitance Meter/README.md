@@ -17,4 +17,4 @@ My cheap multimeter could not measure capacitance, and I wanted to experiment wi
 - RB3: to VDD (Low-voltage ICSP)
 
 <h6>Schematic</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Capacitance%20Meter%20/schematic.png">
+<img src="https://github.com/Choo57/Microchip/blob/main/Capacitance%20Meter/schematic.png">
