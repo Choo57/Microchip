@@ -5,7 +5,7 @@ Automatic Flower Pot watering
 Cagan Cerkez, 2014
      
 <h3>DESCRIPTION</h3>
-PIC12F1501 will run a small submersible pump, once every 24 hours. User willpress the button on the board, TMR1 will measure the time the button is pressed for and right after the button is released, the LED will be lit for that long to confirm with the user the time the button was pressed for. MCU will then operate the pump for that duration every 24 hours. The LED on the board will blink periodically to inform the user that the device is working fine and to indicate that the batteries have not died. If the user presses the button again, the 24-hour period will be reset and the watering period will be updated.<br/><br/>
+PIC12F1501 will run a small submersible pump, once every 24 hours. User will press the button on the board, TMR1 will measure the time the button is pressed for and right after the button is released, the LED will be lit for that long to confirm with the user the time the button was pressed for. MCU will then operate the pump for that duration every 24 hours. The LED on the board will blink periodically to inform the user that the device is working fine and to indicate that the batteries have not died. If the user presses the button again, the 24-hour period will be reset and the watering period will be updated.<br/><br/>
 
 (To be included in the next version: WDT will be used to prevent any unexpected freezes/failures as much as possible)<br/>
 
