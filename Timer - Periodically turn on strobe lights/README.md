@@ -25,13 +25,13 @@ A simple timer circuit was designed with an HD44780 LCD display that operates a 
 - LCD connected to RB2-RB7<br/>
 
 <h6>Schematic</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20Periodically%20Turn%20On%20Strobe%20Lights/schematic.png">
+<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20-%20Periodically%20turn%20on%20strobe%20lights/schematic.png">
 
 <h6>Etched board</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20Periodically%20Turn%20On%20Strobe%20Lights/photo_etched.png">
+<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20-%20Periodically%20turn%20on%20strobe%20lights/photo_etched.png" width="60%" height="60%">
 
 <h6>Mounted PCB</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20Periodically%20Turn%20On%20Strobe%20Lights/photo_pcb.png">
+<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20-%20Periodically%20turn%20on%20strobe%20lights/photo_pcb.png" width="60%" height="60%">
 
 <h6>Case</h6>
-<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20Periodically%20Turn%20On%20Strobe%20Lights/photo_case.png">
+<img src="https://github.com/Choo57/Microchip/blob/main/Timer%20-%20Periodically%20turn%20on%20strobe%20lights/photo_case.png">
